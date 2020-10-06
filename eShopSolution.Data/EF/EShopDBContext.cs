@@ -1,8 +1,15 @@
-﻿using System;
+using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace eShopSolution.Data
 {
-    public class EShopDBContext
+    public class EShopDBContext : DbContext
     {
+        public EShopDBContext(DbContextOptions options) : base(options)
+        {
+            options.UseSqlServer
+        }
+
+        prot
     }
 }
