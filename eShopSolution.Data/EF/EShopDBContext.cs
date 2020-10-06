@@ -1,5 +1,3 @@
-﻿using eShopSolution.Data.EF.Entity;
-using Microsoft.EntityFrameworkCore;
 using System;
 
 namespace eShopSolution.Data
