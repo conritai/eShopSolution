@@ -2,7 +2,7 @@
 
 namespace eShopSolution.Data
 {
-    public class Class1
+    public class EShopDBContext
     {
     }
 }
